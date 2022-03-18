@@ -1,1 +1,6 @@
 # tracin
+train为resnet模型训练
+model为定义的resnet模型文件
+tracin和tracin3为计算train值
+data_get读取数据集
+image_process为图像处理
