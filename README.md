@@ -6,3 +6,4 @@ data_get读取数据集
 image_process为图像处理
 tracin4计算批量tracin值
 train_500 train_1000为训练选取的数据
+rank_different tracin值排序
