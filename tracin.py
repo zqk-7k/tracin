@@ -53,7 +53,7 @@ time_start = time.perf_counter()
 for i in range(10000):
     label_test = torch.zeros(1).long()
     label_test[0] = 0
-    logits_test = net(img_all_test[0].to(device))
+    logits_test = net(img_all_test[i].to(device))
     loss_test = loss_function(logits_test, label_test.to(device))
     grad_z_test = grad(loss_test, net.parameters())
     grad_z_test = get_gradient(grad_z_test, net)
